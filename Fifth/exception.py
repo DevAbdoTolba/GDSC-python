@@ -3,6 +3,12 @@ def exception(condition_selector):
     This function checks if the code is working properly.
     If not it will raise an error.    
     """
+
+
+
+
+
+
     if condition_selector == 1:
         # This is the code that will be checked and it has no error
         try:
@@ -13,6 +19,18 @@ def exception(condition_selector):
             print("No, error, I am inside else")        # This is the message if the code is working
         finally:
             print("The 'try except' is finished") # This is the message that will be printed no matter what
+
+
+
+
+
+
+
+
+
+
+
+
     elif condition_selector == 2:
         # This is the code that will be checked and it has a syntax error
         try:
@@ -26,6 +44,18 @@ def exception(condition_selector):
         finally:
             print("The 'try except' is finished")
 
+
+
+
+
+
+
+
+
+
+
+
+
     elif condition_selector == 3:
          # This is the code that will be checked and it has a value error
         try:
@@ -38,6 +68,23 @@ def exception(condition_selector):
             print("No error, I am inside else")
         finally:
             print("The 'try except' is finished")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     elif condition_selector == 4:
             # This is the code that will be checked and it has a name error
             try:
@@ -50,6 +97,16 @@ def exception(condition_selector):
                 print("No error, I am inside else")
             finally:
                 print("The 'try except' is finished")
+
+
+
+
+
+
+
+
+
+                
 
 
 

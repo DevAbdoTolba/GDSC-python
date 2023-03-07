@@ -1,11 +1,29 @@
-import pyttsx3
+import pyttsx3 # Python Text To Speach x3
 
-# # sudo apt-get install espeak
+# pip install pyttsx3
+    
+
+# sudo apt-get install espeak
+
+
+
 # engine = pyttsx3.init('espeak') # for windows use sapi5
 
 # engine.say("I am a bot trying to finish my first project")
 
 # engine.runAndWait()
+
+
+
+
+
+
+
+
+
+
+
+
 
 """
 ==============================//                 //==============================
@@ -14,9 +32,18 @@ import pyttsx3
 """
 
 # engine = pyttsx3.init('espeak')
+
+
 # voices = engine.getProperty('voices')
+
+
+
 # print(len(voices))
+
+
+
 # start = input("start all? y/n")
+
 # if start == "y":
 #     for voice in voices:
 #         engine.setProperty('voice', voice.id)

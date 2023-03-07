@@ -9,7 +9,7 @@
 # import SayingHelloToTheWorldAllOfIt 
 
 
-# SayingHelloToTheWorldAllOfIt.SayHello()
+# SayingHelloToTheWorldAllOfIt.SayHelloName("Aya Sameh")
 
 
 """
@@ -18,10 +18,10 @@
 =================================//         //=====================================
 """
 
-# import SayingHelloToTheWorldAllOfIt as HelloWorld
+# import SayingHelloToTheWorldAllOfIt as h
 
 
-# HelloWorld.SayHello()
+# h.SayHello()
 
 
 
@@ -60,9 +60,18 @@
 """
 
 
-# import SayingHelloToTheWorldAllOfIt
+import SayingHelloToTheWorldAllOfIt
+import Alot
 
-# print(dir(SayingHelloToTheWorldAllOfIt)) #! This will print all the functions in the file
+print(dir(SayingHelloToTheWorldAllOfIt)) #! This will print all the functions in the file
+print(dir(Alot))
+
+for var in dir(SayingHelloToTheWorldAllOfIt) :
+    for sec in dir(Alot) :
+        if sec == var :
+            print("Conflict! " + str(sec) + " is found in both files" )
+            break
+    
 
 
 """
@@ -72,7 +81,9 @@
 """
 
 # from SayingHelloToTheWorldAllOfIt import *
-# from Alot import *
+
+# from Alot import * # ! here
+
 
 
 # # Logical Error :\
@@ -91,3 +102,5 @@
 """
 
 # ! Now lets TEST A package
+
+

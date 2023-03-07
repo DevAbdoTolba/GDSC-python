@@ -1,3 +1,6 @@
-import cowsay
+import cowsay # TO enter the package main file, hole Ctrl and left click on the package
 
-cowsay.cow("Hello, I am a cow!")
+
+# To check all available attributes, click ==>  Ctrl + Space Or Command Space
+
+cowsay.tux("Hello")

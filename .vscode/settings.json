@@ -1,8 +1,12 @@
 {
-    "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#ce1cb1",
-        "activityBar.background": "#38018A",
-        "titleBar.activeBackground": "#4E01C1",
-        "titleBar.activeForeground": "#FDFCFF"
-    }
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#ce1cb1",
+    "activityBar.background": "#38018A",
+    "titleBar.activeBackground": "#4E01C1",
+    "titleBar.activeForeground": "#FDFCFF"
+  },
+  "cSpell.words": [
+    "espeak",
+    "pyttsx"
+  ]
 }
