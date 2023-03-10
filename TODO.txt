@@ -1,0 +1,34 @@
+cross dissolve
+
+
+open(  "Path/name"  , 'mode'   ) 
+    mode ==> r, w, a
+ 
+type()
+
+readline()     first line
+readlines()   all lines in list [ ]
+read()          all lines in string " "
+
+
+/n    len(/n)
+
+strip()  removes /n
+
+seek(  "start at char number"  ) 
+
+
+for loop over file
+
+
+startswith(   "String"   )
+
+rstrip()
+
+close()
+
+write(    "String"    )
+
+
+flush()
+
