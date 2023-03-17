@@ -1,0 +1,7 @@
+name,score
+amr  ,30
+tolba,90
+nada ,70
+jo   ,120
+omar ,9
+evo  ,0
